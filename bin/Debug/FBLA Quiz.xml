@@ -1,0 +1,233 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FBLA Quiz
+</name>
+</assembly>
+<members>
+<member name="T:FBLA_Quiz.My.MyWpfExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FBLA_Quiz.My.MyWpfExtension.Application">
+ <summary>
+ Returns the application object for the running application
+ </summary>
+</member>
+<member name="P:FBLA_Quiz.My.MyWpfExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:FBLA_Quiz.My.MyWpfExtension.User">
+ <summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:FBLA_Quiz.My.MyWpfExtension.Log">
+ <summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member>
+<member name="P:FBLA_Quiz.My.MyWpfExtension.Windows">
+ <summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member>
+<member name="T:FBLA_Quiz.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FBLA_Quiz.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FBLA_Quiz.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:FBLA_Quiz.PauseMenu">
+<summary>
+PauseMenu
+</summary>
+</member>
+<member name="M:FBLA_Quiz.PauseMenu.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window1">
+<summary>
+Window1
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window1.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window2">
+<summary>
+Window2
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window2.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window3">
+<summary>
+Window3
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window3.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window4">
+<summary>
+Window4
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window4.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window5">
+<summary>
+Window5
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window5.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window6">
+<summary>
+Window6
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window6.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window10">
+<summary>
+Window10
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window10.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window11">
+<summary>
+Window11
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window11.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window7">
+<summary>
+Window7
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window7.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window8">
+<summary>
+Window8
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window8.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window9">
+<summary>
+Window9
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window9.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window12">
+<summary>
+Window12
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window12.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window13">
+<summary>
+Window13
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window13.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Window14">
+<summary>
+Window14
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Window14.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:FBLA_Quiz.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:FBLA_Quiz.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:FBLA_Quiz.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:FBLA_Quiz.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

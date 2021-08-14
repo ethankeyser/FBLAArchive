@@ -1,0 +1,38 @@
+﻿<Window x:Class="PauseMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FBLA_Quiz"
+        mc:Ignorable="d"
+        Title="PauseMenu" Height="450" Width="800"
+        WindowStyle="ThreeDBorderWindow"
+        WindowState="Maximized">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FFFFDC00" Offset="0"/>
+            <GradientStop Color="#FF0023FF" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Margin="0,0,2,2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="550"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="FBLA.jpg"/>
+        </Grid.Background>
+        <Border Grid.Column="1" BorderBrush="Red" Height="75" HorizontalAlignment="Center" VerticalAlignment="Top" Width="250" BorderThickness="4" CornerRadius="5" Margin="0,10,0,0">
+            <TextBlock Name="Test_Time" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="48" Foreground="White" Text="Time" FontWeight="Bold"></TextBlock>
+        </Border>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="72" Foreground="White" Text="Test Paused" FontWeight="Bold"></TextBlock>
+        <Button x:Name="Resume_Button" Content="Resume" Grid.Column="1" Height="75" Width="200" FontSize="32" Click="Resume_Button_Click" FontWeight="Bold" Foreground="White" Background="Blue" VerticalAlignment="Bottom" Margin="0, 0, 0, 30">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</Window>
